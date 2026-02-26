@@ -1,0 +1,50 @@
+{
+  "requests": [
+    {
+      "id": 1,
+      "name": "ECHO",
+      "method": "Post",
+      "url": "https://echo.free.beeceptor.com",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": "{\"name\":\"hest\", \"speed\":true, \"thing\":\"much\"}"
+    },
+    {
+      "id": 2,
+      "name": "echo-local??",
+      "method": "Post",
+      "url": "http://localhost:8080",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": "{\"name\":\"hest\", \"speed\":true, \"thing\":\"much\"}"
+    }
+  ],
+  "environments": [
+    {
+      "name": "env-1",
+      "variables": [
+        {
+          "key": "test",
+          "value": "hest"
+        }
+      ]
+    }
+  ],
+  "active_environment": 0
+}
