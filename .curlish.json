@@ -32,7 +32,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\"name\":\"hest\", \"speed\":true, \"thing\":\"much\"}"
+      "body": "{\"name\":\"${test}\", \"speed\":true, \"thing\":\"much\"}"
     }
   ],
   "environments": [
