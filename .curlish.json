@@ -21,7 +21,7 @@
       "id": 2,
       "name": "echo-local?",
       "method": "Post",
-      "url": "http://localhost:8080",
+      "url": "https://echo.free.beeceptor.com",
       "headers": [
         {
           "name": "Content-Type",
@@ -41,7 +41,7 @@
       "variables": [
         {
           "key": "test",
-          "value": "hest"
+          "value": "hest2"
         }
       ]
     }
