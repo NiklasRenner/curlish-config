@@ -15,7 +15,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\"name\":\"hest\", \"speed\":true, \"thing\":\"much\"}"
+      "body": "{\"name\":\"hest127\", \"speed\":true, \"thing\":\"much\"}"
     },
     {
       "id": 2,
