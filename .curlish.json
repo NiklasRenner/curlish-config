@@ -15,7 +15,13 @@
           "value": "application/json"
         }
       ],
-      "body": "{\"name\":\"hest27\", \"speed\":true, \"thing\":\"much\"}"
+      "body": "{\"name\":\"hest27\", \"speed\":true, \"thing\":\"much\"}",
+      "query_params": [
+        {
+          "key": "hest",
+          "value": "fast"
+        }
+      ]
     },
     {
       "id": 2,
@@ -32,7 +38,8 @@
           "value": "application/json"
         }
       ],
-      "body": "{\"name\":\"${test}\", \"speed\":true, \"thing\":\"extreme\"}"
+      "body": "{\"name\":\"${test}\", \"speed\":true, \"thing\":\"extreme\"}",
+      "query_params": []
     }
   ],
   "environments": [
