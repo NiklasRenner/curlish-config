@@ -15,7 +15,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\"name\":\"hest27\", \"speed\":true, \"thing\":\"much\"}",
+      "body": "{\n  \"name\": \"hest27\",\n  \"speed\": true,\n  \"thing\": \"much\"\n}",
       "query_params": [
         {
           "key": "hest",
