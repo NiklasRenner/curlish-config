@@ -38,7 +38,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\"name\":\"${test}\", \"speed\":true, \"thing\":\"extreme\"}",
+      "body": "{\n  \"name\": \"${test}\",\n  \"speed\": true,\n  \"thing\": \"extreme\"\n}",
       "query_params": []
     }
   ],
