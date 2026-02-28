@@ -25,7 +25,7 @@
     },
     {
       "id": 2,
-      "name": "echo-local?",
+      "name": "echo-local(fake)",
       "method": "Post",
       "url": "https://echo.free.beeceptor.com",
       "headers": [
